@@ -83,7 +83,7 @@ Dense(1, sigmoid)
 
 | Confusion matrix | Training curves |
 |---|---|
-| ![Confusion matrix](images/confusion_matrix_binary.png) | ![Training curves](images/training_curves.png) |
+| ![Confusion matrix](confusion_matrix_binary.png) | ![Training curves](training_curves.png) |
 
 The notebook also shows spectrograms of the misclassified clips for error analysis.
 
@@ -93,7 +93,7 @@ The next step was predicting *why* a baby is crying. The convolutional layers of
 
 **Result: 25% test accuracy**, which is chance level for 4 classes. The model predicted a single class for every clip.
 
-![Cry-type confusion matrix](images/confusion_matrix_cry_type.png)
+![Cry-type confusion matrix](confusion_matrix_cry_type.png)
 
 **What this shows:** features that separate *cry vs. not cry* well don't carry enough information to tell cry *types* apart. Cry sub-types sound far more alike than a cry and a laugh do, and ~100 clips per class is very little data for that distinction.
 
