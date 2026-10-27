@@ -54,7 +54,7 @@ Converting 80,000 raw samples to a 64 × 157 spectrogram (~10,000 values) makes 
 
 | Waveforms | Log-Mel spectrograms |
 |---|---|
-| ![Waveforms](images/waveforms_cry_vs_notcry.png) | ![Spectrograms](images/mel_spectrograms.png) |
+| ![Waveforms](waveforms_cry_vs_notcry.png) | ![Spectrograms](mel_spectrograms.png) |
 
 ## Model
 
